@@ -1,0 +1,44 @@
+/* .header img {
+    width:25vh;
+    height:auto;
+    justify-content: center;
+}
+
+.header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__title {
+    margin: 0;
+  }
+  
+  .header__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+  }
+  
+  .header__nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .header__nav li a {
+    text-decoration: none;
+    color: #fff;
+  }
+   */
+
+.navbar_container href{
+    color:white;
+    background-color: blueviolet;
+}
+
+.mr-auto{
+    color:white;
+    background-color: aliceblue;
+}
