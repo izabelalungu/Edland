@@ -1,10 +1,14 @@
 body,html, #root{
   color: #fff;
-  background-color: #333;
+  background-color: #333 !important;
 }
 
 .App {
   text-align: center;
+  background-color: #333 !important;
+  padding: 2px;
+  font-family: Tahoma, sans-serif;
+  margin: 10px;
 }
 
 .App-logo {
