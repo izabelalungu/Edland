@@ -1,27 +1,18 @@
-
-
-
-.horizontal-rules{
-    width: 30%;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 10px;
+.carousel-caption {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.title-first-background{
-    font-size: 40px;
-    font-family: Poppins,sans-serif
+.carousel-control-next {
+    right: 0;
+    visibility: hidden;
 }
 
-.text-under-hr{
-    font-size: 20px;
+.carousel-control-prev {
+    left: 0;
+    visibility: hidden;
 }
-
-.background-image {
-    background-image: url('./images/5.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-  }
-  
