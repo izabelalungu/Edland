@@ -4,6 +4,10 @@ import { useState, useEffect } from 'react';
 import slide1 from "./images/5.jpg";
 import slide2 from "./images/8.jpg";
 import slide3 from "./images/23.jpg";
+import designfull from "./images/design_site_full.png";
+// import circleimg from "./images/poza_cerc_full.png"
+import circleimg from "./images/poza_cerc_fullb.png"
+
 
 const SlideshowBackground = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -79,6 +83,19 @@ function Main() {
   return (
     <main className="main">
       <SlideshowBackground />
+      <div className="imagine_mare_container">
+        <img src={designfull} alt="About us" className="imagine_mare_style" />
+      </div>
+      <div className="text_under_bigimg_container">
+        <p>aici vine un text despre servicii si despre about us</p>
+      </div>
+      <div className="prices_panel_container">
+        <p>aici vine un panou super cute cu reclama</p>
+      </div>
+      <div className="circle_img_container">
+        <img src={circleimg} alt="Descopera acum lumea caselor modulare" className="imagine_mare_style" />
+      </div>
+
     </main>
   );
 }

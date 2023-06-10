@@ -16,3 +16,19 @@
     left: 0;
     visibility: hidden;
 }
+
+.carousel-inner {
+    border-bottom: 5px solid #009999;
+    border-top: 5px solid #009999;
+}
+
+.imagine_mare_container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .imagine_mare_style {
+    max-width: 100%;
+    height: auto;
+  }  
+  
