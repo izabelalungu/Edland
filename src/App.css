@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@400;700&family=Roboto:wght@500;700&display=swap');
+*{
+  font-family: 'Montserrat' , 'Roboto';
+}
 body,html, #root{
   color: #fff;
   background-color: #333 !important;
