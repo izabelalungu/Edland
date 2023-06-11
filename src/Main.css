@@ -1,0 +1,110 @@
+.carousel-caption {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-control-next {
+    right: 0;
+    visibility: hidden;
+}
+
+.carousel-control-prev {
+    left: 0;
+    visibility: hidden;
+}
+
+.carousel-inner {
+    border-bottom: 5px solid #009999;
+    border-top: 5px solid #009999;
+}
+
+/* three panels */
+.container-box {
+  height: 450px;
+  color: black;
+  background-color: #009999;
+  margin: 10px;
+  width: 350px;
+  border-radius: 30px;
+  }
+
+  .container-box-middle{
+    height: 550px;
+    color: black;
+    background-color: #009999;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 450px;
+    border-radius: 30px;
+  }
+
+  .display-md-devices-aboutus {
+    display: flex;
+  }
+  
+
+/* about us design */
+ .imagine_mare_style {
+    max-width: 100%;
+    height: auto;
+  } 
+
+  /* promo panel */
+  .rectangle {
+    height: 200px; /* Adjust the height as desired */
+    border: 5px solid white;
+    margin: 50px 100px 50px 100px;
+    border-radius: 50px;
+  }
+  
+  .dotted-line {
+    height: 70%;
+    width: 1px;
+    border-right: dotted white;
+  }
+  
+
+/* bubble image design */
+  .bbl_img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imageContainer {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 767.98px) {
+    .align-items-start {
+      align-items: center;
+    }
+
+    .display-md-devices-aboutus {
+      display: grid;
+    }
+
+    .container-box-middle{
+      height: 400px;
+      color: black;
+      background-color: #009999;
+      margin: 10px;
+      width: 350px;
+      border-radius: 30px;
+    }
+
+    .container-box {
+      height: 400px;
+      width: 350px;
+      }
+  }
