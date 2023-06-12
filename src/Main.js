@@ -1,8 +1,8 @@
-import React from 'react';
-import './Main.css';
-import { useState, useEffect } from 'react';
+import React from "react";
+import "./Main.css";
+import { useState, useEffect } from "react";
 // import Gallery from './components/Gallery';
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 
 import slide1 from "./images/5.jpg";
 import slide2 from "./images/8.jpg";
@@ -10,33 +10,33 @@ import slide3 from "./images/23.jpg";
 import designfull from "./images/design_site_full.png";
 import circleimg from "./images/poza_cerc_fullb.png";
 
-import image1 from './images/Galerie/CABIN_S02/CABIN S02/1.jpg';
-import image2 from './images/Galerie/CABIN_S02/CABIN S02/2.jpg';
-import image3 from './images/Galerie/CABIN_A01/CABIN A01/1.png';
-import image4 from './images/Galerie/CABIN_A01/CABIN A01/2.png';
-import image5 from './images/Galerie/CABIN_A02/CABIN A02/1.jpg';
-import image6 from './images/Galerie/CABIN_A02/CABIN A02/2.jpg';
+import image1 from "./images/Galerie/CABIN_S02/CABIN S02/1.jpg";
+import image2 from "./images/Galerie/CABIN_S02/CABIN S02/2.jpg";
+import image3 from "./images/Galerie/CABIN_A01/CABIN A01/1.png";
+import image4 from "./images/Galerie/CABIN_A01/CABIN A01/2.png";
+import image5 from "./images/Galerie/CABIN_A02/CABIN A02/1.jpg";
+import image6 from "./images/Galerie/CABIN_A02/CABIN A02/2.jpg";
 
 const Gallery = () => {
   const projects = [
     {
       id: 1,
-      title: 'Project 1',
-      images: [image3,image4],
-      description: 'This is the description for Project 1.'
+      title: "Project 1",
+      images: [image3, image4],
+      description: "This is the description for Project 1.",
     },
     {
       id: 2,
-      title: 'Project 2',
-      images: [image5,image6],
-      description: 'This is the description for Project 2.'
+      title: "Project 2",
+      images: [image5, image6],
+      description: "This is the description for Project 2.",
     },
     {
       id: 3,
-      title: 'Project 3',
+      title: "Project 3",
       images: [image1, image2],
-      description: 'This is the description for Project 3.'
-    }
+      description: "This is the description for Project 3.",
+    },
   ];
 
   return (
@@ -49,7 +49,7 @@ const Gallery = () => {
               {project.images.map((image, index) => (
                 <Carousel.Item key={index}>
                   <img
-                    className="d-block w-100"
+                    className="d-block carousels-bottom"
                     src={image}
                     alt={`Slide ${index + 1}`}
                   />
@@ -88,21 +88,21 @@ const SlideshowBackground = () => {
   return (
     <div id="slideshow" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
-        <div className={`carousel-item${activeIndex === 0 ? ' active' : ''}`}>
+        <div className={`carousel-item${activeIndex === 0 ? " active" : ""}`}>
           <img src={slide1} className="d-block w-100" alt="Slide 1" />
           <div className="carousel-caption">
             <h3>Creaza-ti casa visurilor tale</h3>
             <p>Descopera lumea caselor modulare personalizabile</p>
           </div>
         </div>
-        <div className={`carousel-item${activeIndex === 1 ? ' active' : ''}`}>
+        <div className={`carousel-item${activeIndex === 1 ? " active" : ""}`}>
           <img src={slide2} className="d-block w-100" alt="Slide 2" />
           <div className="carousel-caption">
             <h3>Noi inovam, nu doar construim</h3>
             <p>Case modulare durabile si eficiente energetic</p>
           </div>
         </div>
-        <div className={`carousel-item${activeIndex === 2 ? ' active' : ''}`}>
+        <div className={`carousel-item${activeIndex === 2 ? " active" : ""}`}>
           <img src={slide3} className="d-block w-100" alt="Slide 3" />
           <div className="carousel-caption">
             <h3>Designul intalneste flexibilitatea</h3>
@@ -150,7 +150,7 @@ function Main() {
   return (
     <main className="main">
       <SlideshowBackground />
-      <AboutUs/>
+      <AboutUs />
 
       <div className="imagine_mare_container">
         <img src={designfull} alt="About us" className="imagine_mare_style" />
@@ -167,14 +167,14 @@ function Main() {
 
       <div class="bbl_img_container">
         <div class="imageContainer">
-          <img src={circleimg} alt=""/>
-        </div> 
+          <img src={circleimg} alt="" />
+        </div>
         <div class="text_leftbbl">
           <p></p>
         </div>
       </div>
 
-      <Gallery/>
+      <Gallery />
     </main>
   );
 }

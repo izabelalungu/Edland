@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
-body,html, #root{
+body,
+html,
+#root {
   color: #fff;
   background-color: #333 !important;
+  font-size: 62.5%;
 }
 
 .App {
@@ -10,7 +13,7 @@ body,html, #root{
   background-color: #333 !important;
   padding: 2px;
   margin: 10px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .App-logo {
