@@ -1,0 +1,174 @@
+.carousel-caption {
+  font-size: 2.4rem;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-caption h3 {
+  font-size: 3.2rem;
+}
+
+.carousel-control-next {
+  right: 0;
+  visibility: hidden;
+}
+
+.carousel-control-prev {
+  left: 0;
+  visibility: hidden;
+}
+
+.carousel-inner {
+  border-bottom: 0.4rem solid #009999;
+  border-top: 0.4rem solid #009999;
+}
+
+/* text under big img */
+
+.text_under_bigimg_container {
+  font-size: 2.4rem;
+  margin-top: 4.8rem;
+}
+
+/* three panels */
+.container-box {
+  font-size: 2.4rem;
+  height: 32rem;
+  color: black;
+  background-color: #009999;
+  margin: 1.2rem;
+  width: 36rem;
+  border-radius: 3.2rem;
+}
+
+.container-box-middle {
+  font-size: 2.4rem;
+  height: 40rem;
+  color: black;
+  background-color: #009999;
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+  width: 48rem;
+  border-radius: 3.2rem;
+}
+
+.display-md-devices-aboutus {
+  display: flex;
+}
+
+/* about us design */
+.imagine_mare_style {
+  max-width: 100%;
+  height: auto;
+}
+
+/* promo panel */
+.rectangle {
+  height: 19.6rem; /* Adjust the height as desired */
+  border: 5px solid white;
+  margin: 4.8rem 9.6rem 4.8rem 9.6rem;
+  border-radius: 4.8rem;
+}
+
+.dotted-line {
+  height: 70%;
+  width: 1px;
+  border-right: dotted white;
+}
+
+/* bubble image design */
+.bbl_img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  width: 100%;
+  height: auto;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+}
+
+/* carousels at the bottom */
+
+.container {
+  margin-top: 4.8rem;
+}
+.carousels-bottom {
+  width: 100% !important;
+  height: 12.8rem;
+}
+
+.col-md-4 p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 767.98px) {
+  .carousel-caption {
+    font-size: 1.2rem;
+  }
+  .carousel-caption h3 {
+    font-size: 2.4rem;
+  }
+  .align-items-start {
+    align-items: center;
+  }
+
+  .display-md-devices-aboutus {
+    display: grid;
+  }
+
+  .container-box-middle {
+    height: 42rem;
+    color: black;
+    background-color: #009999;
+    margin: 1.2rem;
+    width: 38rem;
+    border-radius: 3.2rem;
+  }
+
+  .container-box {
+    height: 42rem;
+    width: 38rem;
+  }
+  .carousels-bottom {
+    height: 28rem;
+  }
+  .container-panels {
+    margin: 3.2rem 0;
+  }
+
+  .display-md-devices-aboutus {
+    gap: 2.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousels-bottom {
+    height: 14.2rem;
+  }
+}
+
+@media (min-width: 1228px) {
+  .imageContainer img {
+    width: 80%;
+    height: auto;
+  }
+  .carousels-bottom {
+    height: 16.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .carousels-bottom {
+    height: 20rem;
+  }
+}
